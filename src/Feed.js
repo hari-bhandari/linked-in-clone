@@ -32,8 +32,8 @@ function Feed() {
         e.preventDefault ();
 
         db.collection("posts").add({
-            name: "Seemore Butts",
-            description: "CEO at Seeing More Butts",
+            name: "Hari Bhandari",
+            description: "Hari Bhandari is a software developer",
             message: input,
             photoUrl: "",
             timestamp: firebase.firestore.FieldValue.serverTimestamp (),
@@ -59,9 +59,6 @@ function Feed() {
                <InputOption Icon = {CalendaViewDayIcon} title ="Write Article" color="#990000"  />
                </div>
            </div>
-           <Post name= "Beany Baby" description= "Founder at your moma's place" message= 
-                "your mom is still angry with me for rubbing pepper on her butt plug" 
-                photoUrl="/images/bean.jpeg" avatar="/images/beany.jpg"/>
            <FlipMove>                
                 {posts.map(({id, data:{name, description, message, photoUrl, avatar} }) => (
                     <Post
