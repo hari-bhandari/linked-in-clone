@@ -1,0 +1,74 @@
+.wigets {
+    /* position: sticky; */
+    top: 80px;
+    flex: 0.2;
+    width: 300px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid darkred;
+    height: fit-content;
+    margin-left: 20px;
+    padding-bottom: 10px; 
+    margin-bottom: 10px;   
+}
+
+.wigets__training {
+    position: sticky;
+    top: 80px;
+    /* flex: 0.2; */
+    width: 300px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid darkred;
+    height: fit-content;
+    margin-left: 20px;
+    padding-bottom: 10px;    
+}
+
+.wigets__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.wigets__header > h2 {
+    font-size: 16px;
+    font-weight: 420;
+    align-items: center;
+}
+
+.wigets__article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wigets__article:hover {
+    background-color: whitesmoke;
+}
+
+.wigets__articleLeft {
+    color: darkred;
+}
+
+.wigets__articleLeft > .MuiSvgIcon-root {
+    font-size: 15px;
+}
+
+.wigets__articleRight {
+    flex: 1;
+    margin-left: 3px;
+}
+
+.wigets__articleRight > h4 {
+    font-size: 14px;
+}
+
+.wigets__articleRight > p {
+    font-size: 12px;
+    color: gray;
+}
+
